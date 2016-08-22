@@ -22,7 +22,11 @@
                   <input type="submit" value="Find hot venues" class="button" />
                 </div>
               </div>
-              {{ results }}
+              <ul class="search-results">
+                <li ng-repeat="venue in results.response.groups[0].items">
+                  <a ng-href="{{ venue.venue.url }}" target="_blank">{{ venue.venue.name }}</a>
+                </li>
+              </ul>
             </div>
           </div>
         </form>
