@@ -1,6 +1,6 @@
-# Foursquare Test for Whitbread & ANDigital
+# Hot Venues App
 
-This is the basic app using [Foundation for Sites 6](http://foundation.zurb.com/sites).
+This is the basic app to search for recommended venues in a place using the [Foursquare API](https://developer.foursquare.com) and [Foundation for Sites 6](http://foundation.zurb.com/sites).
 
 ## Installation
 
@@ -12,9 +12,9 @@ To use this app, your computer needs:
 Open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd whitbread_andigital
+cd HotVenuesApp
 npm install
 bower install
 ```
 
-Finally, run `gulp watch` to run the Sass compiler and browsersync.
+Finally, run `gulp sass` to build the scss into css followed by `gulp watch` to start the server and browsersync.
